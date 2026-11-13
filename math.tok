@@ -1,0 +1,97 @@
+--TOKENS--
+type: 5
+value: thread
+line: 1
+----------
+type: 4
+value: main
+line: 1
+----------
+type: 24
+value: (
+line: 1
+----------
+type: 25
+value: )
+line: 1
+----------
+type: 29
+value: :
+line: 1
+----------
+type: 6
+value: once
+line: 1
+----------
+type: 26
+value: {
+line: 1
+----------
+type: 15
+value: int
+line: 2
+----------
+type: 4
+value: x
+line: 2
+----------
+type: 21
+value: =
+line: 2
+----------
+type: 0
+value: 10
+line: 2
+----------
+type: 28
+value: ;
+line: 2
+----------
+type: 15
+value: int
+line: 3
+----------
+type: 4
+value: y
+line: 3
+----------
+type: 21
+value: =
+line: 3
+----------
+type: 0
+value: 20
+line: 3
+----------
+type: 28
+value: ;
+line: 3
+----------
+type: 4
+value: print
+line: 4
+----------
+type: 22
+value: <<
+line: 4
+----------
+type: 4
+value: x
+line: 4
+----------
+type: 19
+value: +
+line: 4
+----------
+type: 4
+value: y
+line: 4
+----------
+type: 28
+value: ;
+line: 4
+----------
+type: 27
+value: }
+line: 5
+----------

@@ -1,0 +1,25 @@
+thread helloWorld (terminal) : once {
+    print << "Hello World";
+}
+
+thread fileReader (terminal) : once {
+    file textFile = open(text.txt);
+    if (!file.open) {
+        fail << "Couldn't open file";
+    }
+
+    string text = (string)textFile;
+
+    free textFile;
+
+    print << text;
+
+    errors.exit;
+}
+
+thread errors () : loop {
+    if (fileReader.failed) {
+        error << fileReader.error;
+        exit;
+    }
+}

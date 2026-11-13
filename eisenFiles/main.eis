@@ -1,0 +1,14 @@
+thread main (terminal) : once {
+
+    let int result;
+
+    if (arg[1] == "+") {
+        result = arg[0] + arg[2];
+    } elif (arg[1] == "*" OR "x") {
+        result = arg[0] * arg[2];
+    } else { 
+        result = 0;
+    }
+
+    return result;
+}
